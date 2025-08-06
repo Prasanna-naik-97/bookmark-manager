@@ -1,0 +1,55 @@
+.app {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .bookmark-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .bookmark-form input {
+    flex: 1;
+    padding: 0.5rem;
+  }
+  
+  .bookmark-form button {
+    padding: 0.5rem 1rem;
+  }
+  
+  .bookmark-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bookmark-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bookmark-item a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  .bookmark-item button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
+  
+  .no-bookmarks {
+    text-align: center;
+    color: #888;
+  }
+  
